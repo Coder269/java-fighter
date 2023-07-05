@@ -8,20 +8,20 @@ public class Magicien extends Player implements Attaque {
 
 
     @Override
-    public int attaque1(int damage) {
+    public int attaque1() {
         System.out.println(getName() + " has launched a fireball");
-        return damage;
+        return 16;
     }
 
     @Override
-    public int attaque2(int damage) {
+    public int attaque2() {
         System.out.println(getName() + " has launched an ice attack");
-        return damage;
+        return 15;
     }
 
     @Override
-    public int attaque3(int damage) {
+    public int attaque3() {
         System.out.println(getName() + " has launched a tornado");
-        return damage;
+        return 13;
     }
 }

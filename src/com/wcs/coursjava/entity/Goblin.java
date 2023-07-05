@@ -9,21 +9,21 @@ public class Goblin extends Monster implements Attaque {
     }
 
     @Override
-    public int attaque1(int damage) {
+    public int attaque1() {
         System.out.println(getName() + " is attacking with a dagger");
-        return damage;
+        return 13;
     }
 
     @Override
-    public int attaque2(int damage) {
+    public int attaque2() {
         System.out.println(getName() + " is attacking with hands");
-        return damage;
+        return 14;
     }
 
     @Override
-    public int attaque3(int damage) {
+    public int attaque3() {
         System.out.println(getName() + " is attacking with a small Sword");
-        return damage;
+        return 15;
     }
 
 

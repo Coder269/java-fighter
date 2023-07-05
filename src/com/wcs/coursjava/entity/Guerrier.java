@@ -14,21 +14,21 @@ public class Guerrier extends Player implements Attaque {
 
 
     @Override
-    public int attaque1(int damage) {
+    public int attaque1() {
         System.out.println(getName() + " is attacking with a Sword");
-        return damage;
+        return 18;
     }
 
     @Override
-    public int attaque2(int damage) {
+    public int attaque2() {
         System.out.println(getName() + " is attacking with a spear");
-        return damage;
+        return 15;
     }
 
     @Override
-    public int attaque3(int damage) {
+    public int attaque3() {
         System.out.println(getName() + " is attacking with an ax");
-        return damage;
+        return 13;
     }
 
 }
